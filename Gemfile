@@ -20,6 +20,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'minitest'		
+  gem 'shoulda-matchers', '~> 2.4.0' 
   gem 'capybara', '~> 2.2.0'
 end
 
